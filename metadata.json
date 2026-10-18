@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "rvokal"
+            }
+        ],
+        "Name": "Škoda Vehicle Monitor",
+        "Id": "org.skoda.vehicle-monitor",
+        "Description": "Displays Škoda connected vehicle status including fuel, mileage, doors, and location",
+        "Category": "Utilities",
+        "Icon": "car",
+        "EnabledByDefault": true,
+        "License": "GPL-3.0+",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
