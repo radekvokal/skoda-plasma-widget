@@ -43,6 +43,18 @@ sudo apt install qml6-module-qtlocation qml6-module-qtpositioning
 
 ## Installation
 
+### From the KDE Store
+
+1. Right-click your desktop or panel and select **Add Widgets**
+2. Click **Get New Widgets** > **Download New Plasma Widgets**
+3. Search for **Škoda Vehicle Monitor** and click **Install**
+
+Alternatively, download the `.plasmoid` package directly from [the OpenDesktop store page](https://www.opendesktop.org/p/2380548/) and install it with:
+
+```bash
+kpackagetool6 --type Plasma/Applet --install skoda-vehicle-monitor.plasmoid
+```
+
 ### From source
 
 Clone the repository and copy the widget to your local Plasma widgets directory:
