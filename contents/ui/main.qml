@@ -173,6 +173,7 @@ PlasmoidItem {
         ColumnLayout {
             anchors.fill: parent
             anchors.margins: Kirigami.Units.mediumSpacing
+            anchors.leftMargin: Kirigami.Units.largeSpacing * 2
             spacing: Kirigami.Units.smallSpacing
 
             // Loading / error state
